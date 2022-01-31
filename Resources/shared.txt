@@ -1,0 +1,21 @@
+ENT.Type = "anim"
+ENT.Base = "base_gmodentity"
+
+ENT.PrintName    = "Entity Generator"
+ENT.Author       = "LUA GENERATOR"
+ENT.Contact      = "n/a"
+ENT.Category     = "lua Generator"
+ENT.Purpose      = "Description"
+ENT.Instructions = "Instruction"
+
+ENT.Spawnable = true
+ENT.AdminOnly = true
+
+--ENT.RenderGroup = RENDERGROUP_BOTH
+
+function ENT:SetupDataTables()
+	--self:NetworkVar("Entity", 0, "owning_ent")
+end
+
+function ENT:PhysicsUpdate(phys)
+end

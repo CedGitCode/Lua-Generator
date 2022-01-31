@@ -1,0 +1,61 @@
+﻿SWEP.Base                  = "weapon_base"
+SWEP.Category              = "lua Generator"
+SWEP.PrintName             = "lua Generator"
+SWEP.Spawnable             = true
+SWEP.AdminOnly             = true
+
+SWEP.Author                = "n/a"
+SWEP.Contact               = "n/a"
+SWEP.Purpose               = "n/a"
+SWEP.Instructions          = "Description"
+
+SWEP.ViewModel             = "models/weapons/v_pistol.mdl"
+SWEP.WorldModel            = "models/weapons/w_pistol.mdl"
+SWEP.ViewModelFOV          = 62
+SWEP.ViewModelFlip         = false
+SWEP.ViewModelFlip1        = false
+SWEP.ViewModelFlip2        = false
+
+SWEP.Slot                  = 0
+SWEP.SlotPos               = 10
+SWEP.UseHands              = true
+SWEP.DrawAmmo              = true
+SWEP.DrawCrosshair         = true
+SWEP.AutoSwitchTo          = true
+SWEP.AutoSwitchFrom        = true
+SWEP.BounceWeaponIcon      = true
+SWEP.DrawWeaponInfoBox     = true
+SWEP.AccurateCrosshair     = false
+SWEP.DisableDuplicator     = false
+SWEP.CSMuzzleFlashes       = false
+SWEP.CSMuzzleX             = false
+
+SWEP.Weight                = 5
+SWEP.BobScale              = 1
+SWEP.SwayScale             = 1
+
+SWEP.Primary.Ammo          = "none"
+SWEP.Primary.ClipSize      = -1
+SWEP.Primary.DefaultClip   = -1
+SWEP.Primary.Automatic     = false
+
+SWEP.Secondary.Ammo        = "none"
+SWEP.Secondary.ClipSize    = -1
+SWEP.Secondary.DefaultClip = -1
+SWEP.Secondary.Automatic   = false
+
+SWEP.m_WeaponDeploySpeed   = 1
+SWEP.m_bPlayPickupSound    = true
+
+function SWEP:Initialize()
+	self:SetWeaponHoldType("normal")
+end
+
+function SWEP:Think()
+end
+
+function SWEP:PrimaryAttack()
+end
+
+function SWEP:SecondaryAttack()
+end
